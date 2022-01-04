@@ -149,3 +149,35 @@ section{
     color: var(--primary);
 }
 
+.pricing ul li{
+        margin-top: 8px;
+}
+.team-member img{
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    width: 34px;
+    height: 34px;
+    background-color: var(--primary);
+    border-radius: 2px solid var(--primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+    border: 2px solid var(--primary);
+}
+
+.social-icons a:hover{
+    color: var(--primary);
+    background-color: transparent;
+    border-color: var(--primary);
+}
