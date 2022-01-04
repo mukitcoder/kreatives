@@ -11,6 +11,7 @@ body{
     font-family: 'Sora', sans-serif;
     line-height: 1.7;
     color: var(--body);
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6,
@@ -180,4 +181,17 @@ section{
     color: var(--primary);
     background-color: transparent;
     border-color: var(--primary);
+}
+
+.footer-top{
+    padding-bottom: 90px;
+    padding: 90px;
+    background-color: var(--dark);
+}
+
+.footer-top a{
+    color: var(--body);
+}
+.footer-top a:hover{
+    color: #fff;
 }
